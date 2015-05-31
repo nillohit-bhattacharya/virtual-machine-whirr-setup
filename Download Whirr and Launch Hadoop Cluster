@@ -1,0 +1,10 @@
+Download whirr-0.8.2 using the following command:
+  $ wget http://mirrors.advancedhosters.com/apache/whirr/whirr-0.8.2/whirr-0.8.2.tar.gz
+
+Extract the file “whirr-0.8.2.tar.gz” using the following command:
+  $ tar -zxvf whirr-0.8.2.tar.gz
+
+Change Directory to whirr and check whirr version using the following command:
+  $bin/whirr version
+
+You are now ready to launch your Hadoop cluster from your virtual machine.
