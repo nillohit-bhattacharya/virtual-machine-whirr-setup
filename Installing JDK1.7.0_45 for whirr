@@ -1,0 +1,39 @@
+After installing Ubuntu Linux 14.0.4 LTS on virtual machine, run the following commands
+  $ sudo apt-get update
+  $ sudo apt-get install virtualbox-guest-dkms
+  $ sudo apt-get install lxde
+
+Restart the virtual machine and you will get a full screen desktop environment lxde on Ubuntu server.
+
+Once you are in the lxde desktop environment, start the terminal using the following shortcut key:
+  Ctrl+Alt+T
+
+You will need to install firefox, use the following command to do that:
+  $ sudo apt-get install firefox
+  
+Once Firefox is installed, download jdk 1.7.0_45 from java-archive-downloads at the oracle website
+http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u45-oth-JPR
+
+Note: You can make the clipboard bidirectional in Virtual Box, meaning that you can copy text from Host OS to the Guest OS 
+and vice versa. 
+To enable bidirectional clipboard on the virtual machine window, select Devices > Shared Clipboard > Bidirectional. 
+You might need to restart the virtual machine, in order for this to take effect.
+
+Use the following command to extract the jdk-7u45-linux-x64.tar.gz file. (This file will be in the Downloads folder)
+	$ cd ~/Downloads/ && tar -zxvf jdk-7u45-linux-x64.tar.gz
+
+Create a new Directory “java” under /usr/local/java
+  $ sudo mkdir /usr/local/java
+
+Change the owner of the Directory to the user who is logged in to the system.
+  $ sudo chown nillohit /usr/local/java
+
+Move the extracted file jdk-7u45-linux-x64.tar.gz (jdk1.7.0_45 present in Downloads directory) to /usr/local/java directory 
+using the following command
+	$ sudo mv jdk1.7.0_45/ /usr/local/java/
+
+Install java using the following command
+  $ sudo update-alternatives --install /usr/bin/java "java" "/usr/local/java/jdk1.7.0_45/bin/java" 1
+
+Check the version of java installed
+	$ java -version
