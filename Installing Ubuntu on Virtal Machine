@@ -1,0 +1,72 @@
+Select the newly created virtual machine “Ubuntu Linux 14.04.2 LTS” and click on Start button at the top menu of 
+the Virtual Box window. 
+
+You will be prompted to select start-up disk. 
+Browse to the file location where you downloaded the ISO file of Ubuntu Server 
+Select the file and then click Start.
+
+Select Language
+	English <Enter>
+	Install Ubuntu Server <Enter>
+
+Select the language that is to be used for the installation process
+	English <Enter>
+
+Select your country
+	United States <Enter>
+
+Detect keyboard layout
+	No <Enter>
+
+Country of origin for the keyboard
+	English (US) <Enter>
+
+Keyboard layout
+	English (US) <Enter>
+
+Hostname
+	ubuntu (Default is ubuntu or you may select hostname of your choice) <Continue>
+
+Full name of the new user
+	<yourname> <Continue>
+
+Username for your account
+	<yourusername> <Continue>
+
+Choose a password for the new user
+<yourpassword> <Continue>
+
+Re-enter password to verify
+	<yourpassword> <Continue>
+
+Encrypt your home directory?
+	<No>
+
+Is this time zone correct?
+	(Verify the information and select accordingly) <Yes> <Enter>
+
+Partitioning Method
+	Guided – use entire disk <Enter>
+
+Select disk to partition
+	SCSI3 (0,0,0) (sda) – 8.6 GB ATA VBOX HARDDISK <Enter>
+
+Write the changes to disks?
+	<Yes> <Enter>
+
+HTTP proxy information (blank for none)
+	Do not fill any information select <Continue> and hit <Enter>
+
+How do you want to manage upgrades on this system?
+	No automatic updates <Enter>
+
+Choose software to install
+	Do not select anything and tab to <Continue> and hit <Enter>
+
+Install the GRUB boot loader to the master boot record?
+	<Yes> <Enter>
+
+Finish the Installation
+	<Continue> <Enter>
+
+The virtual machine will restart with your fresh Ubuntu server installation.
