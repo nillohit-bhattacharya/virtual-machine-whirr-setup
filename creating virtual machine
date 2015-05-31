@@ -1,0 +1,34 @@
+Download and Install Virtual Box from the following link:
+http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html
+
+Download ISO file of Ubuntu Server from the following link:
+http://www.ubuntu.com/download/server
+
+Environment Details:
+Host Operating System: Windows 8.1
+Virtual Box: Version 4.3.26 r98988
+
+Click New and enter the details as below
+New
+	Name: 		Ubuntu Linux 14.04.2 LTS
+	Type:		Linux
+	Version:	Ubuntu (64 bit)
+
+Memory Size
+Default is 512 MB. You can increase the size to 1024 MB or 2048 MB as per your RAM availability.
+
+Hard Drive
+	Select the option “Create a virtual hard drive now”.
+
+Hard drive file type
+	VDI (VirtualBox Disk Image)
+
+Storage on physical hard drive
+	Dynamically allocated
+
+File Location and Size
+	If you want you can change the disk size from the default 8 GB to as per your needs.
+
+Click on Create.
+
+Your newly created virtual machine “Ubuntu Linux 14.04.2 LTS” appears on the list of virtual machines on the left panel.
